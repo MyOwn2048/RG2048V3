@@ -594,7 +594,7 @@ hr {
     -ms-user-select: none;
     -ms-touch-action: none;
     touch-action: none;
-    background: #BBA1B4;
+    background: #F0AD43;
     border-radius: 6px;
     width: 280px;
     height: 280px;
@@ -628,11 +628,13 @@ hr {
         margin-top: 59px; }
       .game-container .game-message a {
         display: inline-block;
-        background: #445C70;
+
         border-radius: 3px;
         padding: 0 20px;
         text-decoration: none;
-        color: #4E866A;
+      background: #CFE6D3;
+
+      color: #142A21;
         height: 40px;
         line-height: 42px;
         margin-left: 9px; }
@@ -758,8 +760,42 @@ hr {
     -ms-transform: translate(202px, 202px);
     transform: translate(202px, 202px); }
 
-  .tile .tile-inner {
-    font-size: 35px; }
+.tile .tile-inner {
+    font-size: 0px; }
+      .tile.tile-2 .tile-inner {
+    
+    background: url('../tile-sets/RG5//small/2.jpg');}
+     .tile.tile-4 .tile-inner {
+    
+    background: url('../tile-sets/RG5//small/4.jpg');}
+     .tile.tile-8 .tile-inner {
+    
+    background: url('../tile-sets/RG5//small/8.jpg');}
+     .tile.tile-16 .tile-inner {
+    
+    background: url('../tile-sets/RG5//small/16.jpg');}
+     .tile.tile-32 .tile-inner {
+    
+    background: url('../tile-sets/RG5//small/32.jpg');}
+     .tile.tile-64 .tile-inner {
+    
+    background: url('../tile-sets/RG5//small/64.jpg');}
+     .tile.tile-128 .tile-inner {
+    
+    background: url('../tile-sets/RG5//small/128.jpg');}
+     .tile.tile-256 .tile-inner {
+    
+    background: url('../tile-sets/RG5//small/256.jpg');}
+     .tile.tile-512 .tile-inner {
+  
+    background: url('../tile-sets/RG5//small/512.jpg');}
+     .tile.tile-1024 .tile-inner {
+    
+    background: url('../tile-sets/RG5//small/1024.jpg');}
+     .tile.tile-2048 .tile-inner {
+    
+    background: url('../tile-sets/RG5//small/2048.jpg');}
+
 
   .game-message p {
     font-size: 30px !important;
